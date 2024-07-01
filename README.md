@@ -20,3 +20,9 @@ Helper Functions are also defined to know more info about the number :
 4. int operator[](const int) const: Accesses a specific digit.
 
 in Operator Overloading there r many functions included too like arithmetic and mathematical functions 
+
+
+Notes:
+The BigInt class uses strings to store digits, allowing it to handle very large integers.
+The class supports standard arithmetic operations and provides several mathematical functions.
+Proper error handling is implemented for invalid inputs and arithmetic errors (e.g., division by zero).
